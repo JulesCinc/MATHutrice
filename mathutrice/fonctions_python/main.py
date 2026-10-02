@@ -35,6 +35,7 @@ from mathutrice.fonctions_python.base_generator import choisir_competence, updat
 from mathutrice.lacune_evaluation.LLM_as_Evaluator import (
     diagnostiquer_depuis_competence,
     afficher_resultat,
+    _parse_json,
 )
 from mathutrice.referentiel import REFERENTIEL
 
